@@ -15,4 +15,6 @@ class EmailAddressParser
 
 end
 
-#regex explained
+#regex explained: asking for (a comma and a space) OR [a comma or a space]
+#when using (), it will provide a matching group which adds it onto the array
+#in this case, we want to ignore that so adding ?: tells it that it is not matching
