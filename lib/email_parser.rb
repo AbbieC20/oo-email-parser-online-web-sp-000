@@ -7,7 +7,6 @@ class EmailAddressParser
     #separated email addresses
     @email_addresses = email_addresses
     formatted_list = email_addresses.split(/[, ]/)
-    return formatted_list
   end
 
   def parse
